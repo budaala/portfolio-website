@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
+  <Navbar />
 </template>
 
 <style>
@@ -79,11 +80,9 @@ header {
   background: #FFBD00;
   border: none;
   border-radius: 62px;
-  font-family: 'Alegreya Sans';
+  font-family: 'Alegreya Sans', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  /* line-height: 29px; */
+  font-weight: 600;
   color: #F5F5F5;
 }
 
