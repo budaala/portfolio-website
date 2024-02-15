@@ -1,14 +1,18 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
+import Home from './components/Home.vue'
 </script>
 
 <template>
   <Navbar />
+  <Home />
 </template>
 
 <style>
+/* import cambay font */
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap');
+
 body {
-  position: relative;
   background-color: #001214 !important;
   color: #F5F5F5 !important;
   font-family: 'Cambay', sans-serif;
@@ -16,15 +20,13 @@ body {
 
 h1 {
   /* Frontend Developer */
-  width: 954px;
-  height: 147px;
-
   font-weight: 700;
-  font-size: 90px;
-  line-height: 147px;
+  font-size: 86px;
   letter-spacing: 0.01em;
-
+  margin-top: 17%;
   text-shadow: 0px 0px 17.7px #E0007F;
+  position: relative;
+  z-index: 101 !important;
 }
 
 h2 {
@@ -38,14 +40,16 @@ text-shadow: 0px 0px 17.7px #E0007F;
 }
 
 h3 {
-font-weight: 400;
-font-size: 36px;
-line-height: 59px;
+font-size: 30px;
 letter-spacing: 0.01em;
 
 color: #E0007F;
 }
 
+p {
+  font-size: 1.2rem;
+  font-family: 'Cambay', sans-serif;
+}
 
 header {
   line-height: 1.5;
@@ -75,8 +79,8 @@ header {
 }
 
 .yellow-button {
-  /* width: 187px;
-  height: 49px; */
+  width: 170px;
+  height: 45px;
   background: #FFBD00;
   border: none;
   border-radius: 62px;
@@ -87,6 +91,6 @@ header {
 }
 
 .yellow-button:hover {
-  background: #FFD700;
+  background: #8d6802;
 }
 </style>
