@@ -1,7 +1,7 @@
 <!-- navbar component -->
 <template>
     <nav class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
-        <div class="container-md">
+        <div class="container">
             <a class="navbar-brand" href="#">Alicja Buda</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

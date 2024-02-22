@@ -2,12 +2,14 @@
 import Navbar from './components/Navbar.vue'
 import Home from './components/Home.vue'
 import Projects from './components/Projects.vue'
+import Skills from './components/Skills.vue'
 </script>
 
 <template>
   <Navbar />
   <Home />
   <Projects />
+  <Skills />
 </template>
 
 <style>
@@ -37,7 +39,7 @@ h2 {
   line-height: 98px;
   text-align: center;
   letter-spacing: 0.01em;
-
+  padding-bottom: 10px;
   text-shadow: 0px 0px 17.7px #E0007F;
 }
 
@@ -59,6 +61,10 @@ a {
 
 header {
   line-height: 1.5;
+}
+
+.container-md {
+    padding-top: 200px;
 }
 
 .logo {

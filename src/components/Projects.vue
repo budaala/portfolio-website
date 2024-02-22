@@ -35,13 +35,6 @@
 </script>
 
 <style scoped>
-.container-md {
-    padding-top: 200px;
-}
-
-h2 {
-    padding-bottom: 10px;
-}
 
 .img-container {
     display: flex;
