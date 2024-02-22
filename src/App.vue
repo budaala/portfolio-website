@@ -1,11 +1,13 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Home from './components/Home.vue'
+import Projects from './components/Projects.vue'
 </script>
 
 <template>
   <Navbar />
   <Home />
+  <Projects />
 </template>
 
 <style>
@@ -30,25 +32,29 @@ h1 {
 }
 
 h2 {
-font-weight: 700;
-font-size: 60px;
-line-height: 98px;
-text-align: center;
-letter-spacing: 0.01em;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 98px;
+  text-align: center;
+  letter-spacing: 0.01em;
 
-text-shadow: 0px 0px 17.7px #E0007F;
+  text-shadow: 0px 0px 17.7px #E0007F;
 }
 
 h3 {
-font-size: 30px;
-letter-spacing: 0.01em;
+  font-size: 30px;
+  letter-spacing: 0.01em;
 
-color: #E0007F;
+  color: #E0007F;
 }
 
-p {
+p, li {
   font-size: 1.2rem;
   font-family: 'Cambay', sans-serif;
+}
+
+a {
+  color: #FFBD00;
 }
 
 header {
