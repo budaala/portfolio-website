@@ -1,12 +1,14 @@
 <template>
-    <div class="container-md">
-        <h2>Skills</h2>
-        <div class="content">
-            <div class="skills">
-                <img src="../images/hard skills.svg" alt="">
+    <a name="skills">
+        <div class="container-md">
+            <h2>Skills</h2>
+            <div class="content">
+                <div class="skills">
+                    <img src="../images/hard skills.svg" alt="">
+                </div>
             </div>
         </div>
-    </div>
+    </a>
 </template>
 
 <script>
@@ -39,5 +41,4 @@
     width: 1000px;
     z-index: 1;
 }
-
 </style>

@@ -11,13 +11,13 @@
                 <div class="d-flex" id="right-side">
                     <ul class="navbar-nav d-flex">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <a href="https://drive.google.com/file/d/1yZqvEKBq5G3JtPNyIn3wf2b1aDW52Wr7/view?usp=sharing" target="_blank">
