@@ -4,7 +4,7 @@
             <h2>Skills</h2>
             <div class="content">
                 <div class="skills">
-                    <img src="../images/hard skills.svg" alt="">
+                    <img src="../images/skills.svg" alt="">
                 </div>
             </div>
         </div>
@@ -38,7 +38,8 @@
 
 .skills img {
     position: absolute;
-    width: 1000px;
+    width: 900px;
+    height: auto;
     z-index: 1;
 }
 </style>
