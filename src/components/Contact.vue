@@ -42,9 +42,6 @@
 </script>
 
 <style scoped>
-.container-md {
-    padding-bottom: 300px;
-}
 
 .col {
     display: flex;
