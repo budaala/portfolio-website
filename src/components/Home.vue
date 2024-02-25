@@ -1,23 +1,27 @@
 <template>
-    <div class="container-md" id="home">
-        <h1 class="mb-0">Frontend Developer</h1>
-        <h3 class="mb-5">Alicja Buda</h3>
-        <div class="photo-container">
-            <div class="auto-layout">
-                <div class="photo-frame">
-                    <div class="auto-layout">
-                        <div class="pink-glow"></div>
-                        <div class="photo"></div>
+    <a name="home">
+        <div class="container-md" id="home">
+            <h1 class="mb-0">Frontend Developer</h1>
+            <h3 class="mb-5">Alicja Buda</h3>
+            <div class="photo-container">
+                <div class="auto-layout">
+                    <div class="photo-frame">
+                        <div class="auto-layout">
+                            <div class="pink-glow"></div>
+                            <div class="photo"></div>
+                        </div>
                     </div>
+                    <div class="smoothing-shadow"></div>
                 </div>
-                <div class="smoothing-shadow"></div>
             </div>
+            <div class="col-10 col-md-6 mb-4">
+                <p>As a computer science student, I fully understand the importance of passion and attention to detail when
+                    creating projects. I thrive on both the creative aspect and logical thinking required in this field.
+                </p>
+            </div>
+            <a href="#contact"><button  class="btn yellow-button">Contact me!</button></a>
         </div>
-        <div class="col-10 col-md-6 mb-4">
-            <p>As a computer science student, I fully understand the importance of passion and attention to detail when creating projects. I thrive on both the creative aspect and logical thinking required in this field. </p>
-        </div>
-        <button class="btn yellow-button">Contact me!</button>
-    </div>
+    </a>
 </template>
 
 <script setup>
@@ -75,7 +79,7 @@
     width: 385px;
     height: 385px;
     left: 57px;
-    top: 58px; 
+    top: 58px;
     border-radius: 50%;
     background: url(../images/profile-photo.png) center/contain no-repeat;
 }
@@ -89,5 +93,4 @@
     top: 327px;
     background: linear-gradient(360deg, #001214 0%, rgba(0, 18, 20, 0) 100%);
 }
-
 </style>

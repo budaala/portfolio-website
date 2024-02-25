@@ -29,7 +29,7 @@ h1 {
   font-weight: 700;
   font-size: 86px;
   letter-spacing: 0.01em;
-  margin-top: 17%;
+  margin-top: 10%;
   text-shadow: 0px 0px 17.7px #E0007F;
   position: relative;
   z-index: 101 !important;
