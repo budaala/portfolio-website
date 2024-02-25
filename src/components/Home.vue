@@ -16,7 +16,7 @@
         <div class="col-10 col-md-6 mb-4">
             <p>As a computer science student, I fully understand the importance of passion and attention to detail when creating projects. I thrive on both the creative aspect and logical thinking required in this field. </p>
         </div>
-        <button class="btn yellow-button">Contact me!</button>
+        <!-- <router-link class="btn yellow-button" to="/contact">Contact me!</router-link> -->
     </div>
 </template>
 

@@ -7,6 +7,7 @@ import Contact from './components/Contact.vue'
 </script>
 
 <template>
+  <!-- <router-view /> -->
   <Navbar />
   <Home />
   <Projects />
@@ -22,6 +23,7 @@ body {
   background-color: #001214 !important;
   color: #F5F5F5 !important;
   font-family: 'Cambay', sans-serif;
+  position: relative;
 }
 
 h1 {
