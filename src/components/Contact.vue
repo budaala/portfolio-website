@@ -1,18 +1,28 @@
 <template>
     <a name="contact">
         <div class="container-md">
-            <h2>Contact</h2>
+            <h2>Get in touch!</h2>
             <div class="content">
                 <div class="row">
-                    <div class="col">
+                    <div class="col s-m">
                         <!-- <h3>Links</h3> -->
                         <div class="social-links">
-                            <a href="https://www.linkedin.com/in/budaalicja/" target="_blank" class="s-link"><img
-                                    src="../images/linkedin.svg">LinkedIn</a>
-                            <a href="https://github.com/budaala" target="_blank" class="s-link"><img
-                                    src="../images/github.svg">GitHub</a>
-                            <a href="mailto:budaala4@gmail.com" target="_blank" class="s-link"><img
-                                    src="../images/mail.svg">Mail</a>
+                            <a href="https://www.linkedin.com/in/budaalicja/" target="_blank" class="s-link">
+                                <div class="icon-container">
+                                    <FontAwesomeIcon class="icon" id="linkedin-icon" :icon="['fab', 'linkedin-in']" />
+                                </div>
+                                LinkedIn</a>
+                            <a href="https://github.com/budaala" target="_blank" class="s-link">
+                                <div class="icon-container">
+                                    <FontAwesomeIcon class="icon" :icon="['fab', 'github']" />
+                                </div>
+                                GitHub
+                            </a>
+                            <a href="mailto:budaala4@gmail.com" target="_blank" class="s-link">
+                                <div class="icon-container">
+                                    <FontAwesomeIcon class="icon" :icon="['fas', 'envelope']" />
+                                </div>
+                                Mail</a>
                         </div>
                     </div>
                     <div class="col">
@@ -38,19 +48,30 @@
 </template>
 
 <script>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+export default {
+    components: {
+        FontAwesomeIcon
+    }
+}
 
 </script>
 
 <style scoped>
-
 .col {
     display: flex;
     justify-content: space-between;
 }
 
+.s-m {
+    justify-content: center;
+}
+
 .social-links {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .s-link {
@@ -58,12 +79,39 @@
     letter-spacing: 0.05em;
     color: #f5f5f5;
     text-decoration: none;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 50px;
 }
 
-.s-link img {
-    width: 200px;
-    height: 200px;
-    object-fit: fill !important;
+.s-link .icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 34px 25px;
+    gap: 10px;
+
+    width: 150px;
+    height: 143px;
+    background: rgba(224, 0, 127, 0.1);
+    border: 1px solid rgba(224, 0, 127, 0.4);
+    box-shadow: 0px 0px 154.1px 10px rgba(224, 0, 127, 0.4);
+    border-radius: 200px;
+}
+
+.icon {
+    font-size: 200px;
+    color: #f5f5f5;
+}
+
+#linkedin-icon {
+    font-size: 100px !important;
+}
+
+.icon:hover {
+    color: rgba(224, 0, 127, 0.4);
 }
 
 .contact {
