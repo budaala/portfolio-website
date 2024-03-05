@@ -20,7 +20,7 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <a href="https://drive.google.com/file/d/1yZqvEKBq5G3JtPNyIn3wf2b1aDW52Wr7/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1jt0gQtkbbyyF7Id8b2iRZlqpoPXMFpqH/view?usp=sharing" target="_blank">
                         <button class="btn yellow-button">Resume</button>
                     </a>
                 </div>
