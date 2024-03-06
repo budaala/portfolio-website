@@ -1,25 +1,34 @@
 <template>
     <section id="home">
-        <div class="container-md" id="home">
-            <h1 class="mb-0">Frontend Developer</h1>
-            <h3 class="mb-5">Alicja Buda</h3>
-            <div class="photo-container">
-                <div class="auto-layout">
-                    <div class="photo-frame">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-sm-8 order-2 order-md-1">
+                    <h1 class="mb-0">Frontend Developer</h1>
+                    <h3 class="mb-5">Alicja Buda</h3>
+                </div>
+                <div class="col-12 col-md-4 order-1 order-md-2">
+                    <div class="photo-container">
                         <div class="auto-layout">
-                            <div class="pink-glow"></div>
-                            <div class="photo"></div>
+                            <div class="photo-frame">
+                                <div class="auto-layout">
+                                    <div class="pink-glow"></div>
+                                    <div class="photo"></div>
+                                </div>
+                            </div>
+                            <div class="smoothing-shadow"></div>
                         </div>
                     </div>
-                    <div class="smoothing-shadow"></div>
                 </div>
             </div>
-            <div class="col-10 col-md-6 mb-4">
-                <p>As a computer science student, I fully understand the importance of passion and attention to detail when
-                    creating projects. I thrive on both the creative aspect and logical thinking required in this field.
-                </p>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4" id="description">
+                    <p>As a computer science student, I fully understand the importance of passion and attention to
+                        detail when creating projects. I thrive on both the creative aspect and logical thinking
+                        required in this field.
+                    </p>
+                </div>
             </div>
-            <a href="#contact"><button  class="btn yellow-button">Contact me!</button></a>
+            <a href="#contact"><button class="btn yellow-button">Contact me!</button></a>
         </div>
     </section>
 </template>
@@ -45,6 +54,16 @@
     left: 58%;
     top: 17%;
     z-index: 100 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .photo-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: -10%;
+    }
 }
 
 /* Auto layout */
@@ -92,5 +111,10 @@
     left: 6px;
     top: 327px;
     background: linear-gradient(360deg, #001214 0%, rgba(0, 18, 20, 0) 100%);
+}
+
+#description {
+    position: relative;
+    z-index: 200 !important;
 }
 </style>

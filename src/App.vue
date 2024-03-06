@@ -94,6 +94,12 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .container-md {
+    padding-left: 15% !important;
+  }
+}
+
 .yellow-button {
   width: 170px;
   height: 45px;
