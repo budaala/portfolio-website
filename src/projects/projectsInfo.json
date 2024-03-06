@@ -1,0 +1,16 @@
+[{
+    "title": "Beehyve",
+    "description":
+        "I contributed to the Beehyve project, by creating an AR experience for the beehive. The hive has sensors on it, which send the live data to the cloud. The data is then fetched and displayed in the experience. The goal of the project was to show the data in a more interactive way, to make it easier to understand for the user.",
+    "responsibilities": [ "fetched the data and displayed it in the experience", "showed the variance of the temperature in different parts of the hive, to emphasize with color where is the majority of the bees (where the temperature is the highest)", "created buttons to show and hide all the data", "created charts to show the development of the measurements" ],
+    "image": "./src/images/beeHiveAR.png",
+    "techStack": ["./src/images/angularjs.png", "./src/images/vuforia.png"]
+},
+{
+    "title": "Zesty",
+    "description":
+        "I contributed to the Beehyve project, by creating an AR experience for the beehive. The hive has sensors on it, which send the live data to the cloud. The data is then fetched and displayed in the experience. The goal of the project was to show the data in a more interactive way, to make it easier to understand for the user.",
+    "responsibilities": [ "fetched the data and displayed it in the experience", "showed the variance of the temperature in different parts of the hive, to emphasize with color where is the majority of the bees (where the temperature is the highest)", "created buttons to show and hide all the data", "created charts to show the development of the measurements" ],
+    "image": "./src/images/zesty.png",
+    "techStack": ["./src/images/vue.png", "./src/images/csharp.png", "./src/images/azure.png"]
+}]

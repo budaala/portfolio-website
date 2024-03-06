@@ -2,7 +2,7 @@
   <div class="content">
     <div class="left-side">
       <div class="image-container container">
-        <img src="../images/beeHiveAR.png" alt="..." />
+        <img :src="image" alt="..." />
       </div>
     </div>
     <div class="right-side">
@@ -11,38 +11,54 @@
           href="https://www.plcnext-community.net/bee-projects/using-augmented-reality/"
           target="_blank"
           class="title-link"
-          ><h3>Beehyve</h3></a
+          ><h3>{{ title }}</h3></a
         >
       </div>
       <div class="description-container container">
         <p>
-          I contributed to the Beehyve project, by creating an AR experience for
-          the beehive. The hive has sensors on it, which send the live data to
-          the cloud. The data is then fetched and displayed in the experience.
-          The goal of the project was to show the data in a more interactive
-          way, to make it easier to understand for the user.
+          {{ description }}
         </p>
         <p>Here’s a brief overview of what I did:</p>
         <ul>
-          <li>fetched the data and displayed it in the experience</li>
-          <li>
-            showed the variance of the temperature in different parts of the
-            hive, to emphasize with color where is the majority of the bees
-            (where the temperature is the highest)
-          </li>
-          <li>created buttons to show and hide all the data</li>
-          <li>created charts to show the development of the measurements</li>
+          <li v-for="resp in responsibilities" :key="resp">{{ resp }}</li>
         </ul>
       </div>
       <div class="tech-stack-container container">
-        <img src="../images/angularjs.png" alt="" class="tech-icon" />
-        <img src="../images/vuforia.png" alt="" class="tech-icon" />
+        <img
+          v-for="ts in techStack"
+          :key="ts"
+          :src="ts"
+          alt=""
+          class="tech-icon"
+        />
+        <!-- <img src="../images/angularjs.png" alt="" class="tech-icon" />
+        <img src="../images/vuforia.png" alt="" class="tech-icon" /> -->
       </div>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+import projectsInfo from "../projects/projectsInfo.json";
+
+export default {
+  props: {
+    id: {
+      type: Number,
+      required: true,
+    },
+  },
+  data() {
+    return {
+      title: projectsInfo[this.id].title,
+      description: projectsInfo[this.id].description,
+      responsibilities: projectsInfo[this.id].responsibilities,
+      techStack: projectsInfo[this.id].techStack,
+      image: projectsInfo[this.id].image,
+    };
+  },
+};
+</script>
 
 <style scoped>
 .content {
@@ -79,8 +95,9 @@
 }
 
 .image-container img {
-  height: 95%;
-  width: auto;
+  max-height: 95%;
+  max-width: 90%;
+  /* width: auto; */
   border-radius: 6px;
 }
 
