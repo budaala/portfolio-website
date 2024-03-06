@@ -98,15 +98,34 @@ header {
   width: 170px;
   height: 45px;
   background: #FFBD00;
-  border: none;
+  border: 2px solid #FFBD00;
   border-radius: 62px;
   font-family: 'Alegreya Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  color: #F5F5F5;
+  color: #001214;
+  position: relative;
+  transition: 0.5s;
 }
 
-.yellow-button:hover {
-  background: #8d6802;
+.yellow-button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
 }
+
+.yellow-button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+  border: 2px solid #FFBD00;
+  color: #FFBD00;
+}
+
+.yellow-button:hover:after {
+  opacity: 1;
+  right: 20px;
+}
+
 </style>
