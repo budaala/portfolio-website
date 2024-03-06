@@ -1,5 +1,5 @@
 <template>
-    <a name="home">
+    <section id="home">
         <div class="container-md" id="home">
             <h1 class="mb-0">Frontend Developer</h1>
             <h3 class="mb-5">Alicja Buda</h3>
@@ -21,7 +21,7 @@
             </div>
             <a href="#contact"><button  class="btn yellow-button">Contact me!</button></a>
         </div>
-    </a>
+    </section>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-    <a name="contact">
+    <section id="contact">
         <div class="container-md">
             <h2>Get in touch!</h2>
             <div class="content">
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-    </a>
+    </section>
 </template>
 
 <script>

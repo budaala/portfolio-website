@@ -1,5 +1,5 @@
 <template>
-    <a name="skills">
+    <section id="skills">
         <div class="container-md">
             <h2>Skills</h2>
             <div class="content">
@@ -8,7 +8,7 @@
                 </div>
             </div>
         </div>
-    </a>
+    </section>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <a name="projects">
+    <section id="projects">
         <div class="container-md">
             <h2>Projects</h2>
             <div class="row row-cols-2">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-    </a>
+    </section>
 </template>
 
 <script>
