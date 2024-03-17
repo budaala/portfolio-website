@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import projectsInfo from "../projects/projectsInfo.json";
+import projectsInfo from "../../public/projects/projectsInfo.json";
 
 export default {
   props: {
