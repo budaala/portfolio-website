@@ -4,7 +4,7 @@
             <h2>Skills</h2>
             <div class="content">
                 <div class="skills">
-                    <img src="../images/skills.svg" alt="">
+                    <img src="../../public/images/skills.svg" alt="">
                 </div>
             </div>
         </div>
