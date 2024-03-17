@@ -31,8 +31,6 @@
           alt=""
           class="tech-icon"
         />
-        <!-- <img src="../images/angularjs.png" alt="" class="tech-icon" />
-        <img src="../images/vuforia.png" alt="" class="tech-icon" /> -->
       </div>
     </div>
   </div>
@@ -160,7 +158,7 @@ export default {
 }
 
 .tech-icon {
-  width: 50px;
+  /* width: 50px; */
   height: 50px;
   margin: 10px;
 }

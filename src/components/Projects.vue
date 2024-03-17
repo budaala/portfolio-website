@@ -10,10 +10,9 @@
           <div class="carousel-item">
             <SingleProject :id="1" />
           </div>
-          <!-- 
           <div class="carousel-item">
             <SingleProject :id="2" />
-          </div> -->
+          </div>
         </div>
         <div class="buttons">
           <button
