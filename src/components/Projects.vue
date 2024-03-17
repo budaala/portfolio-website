@@ -59,13 +59,11 @@ export default {
   border-radius: 26px;
 }
 
-#img-beehive-AR {
-  width: 55%;
-  height: auto;
+.carousel-control-prev {
+  margin-left: -7vw;
+}
+.carousel-control-next {
+  margin-right: -7vw;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  margin: -10%;
-}
 </style>

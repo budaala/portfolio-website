@@ -51,6 +51,9 @@
     position: absolute;
     width: 554px;
     height: 545px;
+
+    /* width: 20vw;
+    height: 20vw; */
     left: 58%;
     top: 17%;
     z-index: 100 !important;
@@ -79,8 +82,8 @@
 
 /* Photo frame */
 .photo-frame {
-    width: 500px;
-    height: 500px;
+    width: 33vw;
+    height: 33vw;
 
     /* Pink glow */
     background: radial-gradient(50% 50% at 50% 50%, #E0007F 0%, #001214 100%);
@@ -88,17 +91,15 @@
 
 /* Pink glow */
 .pink-glow {
-    width: 500px;
-    height: 500px;
+    width: 33vw;
+    height: 33vw;
 }
 
 /* Photo */
 .photo {
     position: absolute;
-    width: 385px;
-    height: 385px;
-    left: 57px;
-    top: 58px;
+    width: 25vw;
+    height: 25vw;
     border-radius: 50%;
     background: url(../../public/images/profile-photo.png) center/contain no-repeat;
 }

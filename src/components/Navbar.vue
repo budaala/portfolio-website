@@ -78,6 +78,12 @@ export default {
 </script>
 
 <style scoped>
+nav {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+}
+
 .navbar {
     background-color: #001214 !important;
     border-bottom: solid 1px rgba(224, 0, 127, 0.4);
