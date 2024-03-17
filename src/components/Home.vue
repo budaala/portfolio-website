@@ -100,7 +100,7 @@
     left: 57px;
     top: 58px;
     border-radius: 50%;
-    background: url(public/images/profile-photo.png) center/contain no-repeat;
+    background: url(../../public/images/profile-photo.png) center/contain no-repeat;
 }
 
 /* Smoothing shadow */
