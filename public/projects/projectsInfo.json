@@ -3,22 +3,22 @@
     "description":
         "I contributed to the Beehyve project, by creating an AR experience for the beehive. The hive has sensors on it, which send the live data to the cloud. The data is then fetched and displayed in the experience. The goal of the project was to show the data in a more interactive way, to make it easier to understand for the user.",
     "responsibilities": [ "fetched the data and displayed it in the experience", "showed the variance of the temperature in different parts of the hive, to emphasize with color where is the majority of the bees (where the temperature is the highest)", "created buttons to show and hide all the data", "created charts to show the development of the measurements" ],
-    "image": "../../public/images/beeHiveAR.png",
-    "techStack": ["../../public/images/css.png", "../../public/images/angularjs.png", "../../public/images/vuforia.png"]
+    "image": "../images/beeHiveAR.png",
+    "techStack": ["../images/css.png", "../images/angularjs.png", "../images/vuforia.png"]
 },
 {
     "title": "Zesty",
     "description":
         "Zesty is an app to share recipes. You can give your own rating and comment to the recipe. You can also add your own recipe. The app is built with Vue.js and C#. The data is stored in Azure. The app is responsive and has a clean design. The goal of the project was to create a platform where people can share their recipes and get inspired by others. ",
     "responsibilities": [ "UI/UX", "frontend", "routing"],
-    "image": "../../public/images/zesty-main.png",
-    "techStack": ["../../public/images/html.png", "../../public/images/css.png", "../../public/images/js.png", "../../public/images/vue.png", "../../public/images/csharp.png", "../../public/images/azure.png"]
+    "image": "../images/zesty-main.png",
+    "techStack": ["../images/html.png", "../images/css.png", "../images/js.png", "../images/vue.png", "../images/csharp.png", "../images/azure.png"]
 },
 {
     "title": "KoalaSchool",
     "description":
         "KoalaSchool is a platform for teachers and students. The teachers can add grades to students they teach and students can view them. The app is built with PHP.",
     "responsibilities": [ "UI/UX", "frontend"],
-    "image": "../../public/images/koalaschool.png",
-    "techStack": ["../../public/images/html.png", "../../public/images/css.png", "../../public/images/php.png"]
+    "image": "../images/koalaschool.png",
+    "techStack": ["../images/html.png", "../images/css.png", "../images/php.png"]
 }]
