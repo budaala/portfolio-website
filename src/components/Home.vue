@@ -114,7 +114,7 @@
     background: linear-gradient(360deg, #001214 0%, rgba(0, 18, 20, 0) 100%);
 }
 
-#description {
+h1, h3, p {
     position: relative;
     z-index: 200 !important;
 }
