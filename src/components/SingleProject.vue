@@ -15,13 +15,15 @@
         >
       </div>
       <div class="description-container container">
-        <p>
-          {{ description }}
-        </p>
-        <p>Here’s a brief overview of what I did:</p>
-        <ul>
-          <li v-for="resp in responsibilities" :key="resp">{{ resp }}</li>
-        </ul>
+        <span id="description">
+          <p>
+            {{ description }}
+          </p>
+          <p>Here’s a brief overview of what I did:</p>
+          <ul>
+            <li v-for="resp in responsibilities" :key="resp">{{ resp }}</li>
+          </ul>
+        </span>
       </div>
       <div class="tech-stack-container container">
         <img
@@ -115,6 +117,7 @@ export default {
     rgba(224, 0, 127, 0.25) 43%,
     rgba(255, 189, 0, 0.25) 100%
   );
+
 }
 
 .title-link {
@@ -142,6 +145,15 @@ export default {
     rgba(224, 0, 127, 0.25) 43%,
     rgba(255, 189, 0, 0.25) 100%
   );
+
+}
+
+#description {
+  /* margin-top: 0;
+  padding: 0; */
+  overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #001214 #e0007f;
 }
 
 .tech-stack-container {
@@ -161,5 +173,18 @@ export default {
   /* width: 50px; */
   height: 50px;
   margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .container {
+      width: 90%;
+    }
+    .right-side {
+      gap: 10px;
+    }
 }
 </style>
