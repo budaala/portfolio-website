@@ -24,19 +24,4 @@ export default {
 </script>
 
 <style scoped>
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  border: 1px solid #e0007f;
-  border-radius: 26px;
-}
-
-.carousel-control-prev {
-  margin-left: -7vw;
-}
-.carousel-control-next {
-  margin-right: -7vw;
-}
 </style>

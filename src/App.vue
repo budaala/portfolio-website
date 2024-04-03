@@ -26,6 +26,20 @@ body {
   font-family: 'Cambay', sans-serif;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0012140b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffbb002d;
+  border-radius: 10px;
+}
+
 h1 {
   /* Frontend Developer */
   font-weight: 700;
