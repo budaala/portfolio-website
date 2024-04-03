@@ -1,5 +1,6 @@
 <template>
-  <div class="content">
+  <div class="content" v-show="title == selectedTitle">
+    <slot></slot>
     <div class="left-side">
       <div class="image-container container">
         <img :src="image" alt="..." />
@@ -40,6 +41,7 @@
 
 <script>
 import projectsInfo from "../../public/projects/projectsInfo.json";
+import {inject} from 'vue'
 
 export default {
   props: {
@@ -47,6 +49,13 @@ export default {
       type: Number,
       required: true,
     },
+  },
+  setup() {
+    const selectedTitle = inject('selectedTitle')
+    
+    return {
+      selectedTitle
+    }
   },
   data() {
     return {
@@ -153,7 +162,7 @@ export default {
   padding: 0; */
   overflow: scroll;
   scrollbar-width: thin;
-  scrollbar-color: #001214 #e0007f;
+  scrollbar-color: rgba(255, 189, 0, 0.25) transparent;
 }
 
 .tech-stack-container {
