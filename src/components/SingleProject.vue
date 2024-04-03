@@ -1,5 +1,6 @@
 <template>
-  <div class="content">
+  <div class="content" v-show="title == selectedTitle">
+    <!-- <slot></slot> -->
     <div class="left-side">
       <div class="image-container container">
         <img :src="image" alt="..." />
@@ -40,6 +41,7 @@
 
 <script>
 import projectsInfo from "../../public/projects/projectsInfo.json";
+import {inject} from 'vue'
 
 export default {
   props: {
@@ -47,6 +49,13 @@ export default {
       type: Number,
       required: true,
     },
+  },
+  setup() {
+    const selectedTitle = inject('selectedTitle')
+    
+    return {
+      selectedTitle
+    }
   },
   data() {
     return {
@@ -76,9 +85,9 @@ export default {
 }
 
 .image-container {
-  width: 624px;
+  width: 35vw;
   height: 757px;
-  /* margin: 0 20px; */
+  margin: 0 20px;
 
   background: radial-gradient(
     166.84% 135.53% at 96.31% 83.88%,
@@ -106,11 +115,12 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 35vw;
 }
 
 .title-container {
-  width: 591px;
-  height: 90px;
+  width: 100%;
+  height: 80px;
 
   background: radial-gradient(
     100% 563.42% at 0% 41.74%,
@@ -137,8 +147,8 @@ export default {
   align-items: flex-start;
   padding: 25px;
 
-  width: 591px;
-  height: 507px;
+  width: 100%;
+  height: 550px;
 
   background: radial-gradient(
     157.61% 114.18% at 106.35% 11.42%,
@@ -153,14 +163,13 @@ export default {
   padding: 0; */
   overflow: scroll;
   scrollbar-width: thin;
-  scrollbar-color: #001214 #e0007f;
+  scrollbar-color: rgba(255, 189, 0, 0.25) transparent;
 }
 
 .tech-stack-container {
   flex-direction: row;
   justify-content: space-evenly;
-  width: 591px;
-  height: 126px;
+  height: 5.5vw;
 
   background: radial-gradient(
     95.26% 502.26% at 85.7% 135.63%,
@@ -171,7 +180,7 @@ export default {
 
 .tech-icon {
   /* width: 50px; */
-  height: 50px;
+  height: 3.5vw;
   margin: 10px;
 }
 
