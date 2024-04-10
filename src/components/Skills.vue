@@ -34,7 +34,6 @@
     align-items: center;
     gap: 10px;
 
-    width: 1423px;
     height: 375px;
 
     background: linear-gradient(105.21deg, rgba(224, 0, 127, 0.41) -38.26%, rgba(0, 18, 20, 0.41) 37.86%, rgba(0, 18, 20, 0.41) 57.56%, rgba(224, 0, 127, 0.41) 140.85%);
