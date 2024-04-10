@@ -43,7 +43,7 @@ body {
 h1 {
   /* Frontend Developer */
   font-weight: 700;
-  font-size: 86px;
+  font-size: 4rem;
   letter-spacing: 0.01em;
   margin-top: 10%;
   text-shadow: 0px 0px 17.7px #E0007F;
@@ -53,7 +53,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3rem;
   line-height: 98px;
   text-align: center;
   letter-spacing: 0.01em;
@@ -62,7 +62,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1.5rem;
   letter-spacing: 0.01em;
 
   color: #E0007F;
@@ -83,6 +83,8 @@ header {
 
 .container-md {
     padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -110,7 +112,7 @@ header {
 
 @media (max-width: 768px) {
   .container-md {
-    padding-left: 15% !important;
+    /* padding-left: 15% !important; */
   }
 }
 

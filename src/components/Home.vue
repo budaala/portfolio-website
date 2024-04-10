@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 mb-4" id="description">
+                <div class="mb-4" id="description">
                     <p>As a computer science student, I fully understand the importance of passion and attention to
                         detail when creating projects. I thrive on both the creative aspect and logical thinking
                         required in this field.
@@ -66,6 +66,10 @@
         height: 100%;
         left: 0;
         top: -10%;
+    }
+
+    #description {
+        width: 100vw !important;
     }
 }
 
@@ -118,4 +122,10 @@ h1, h3, p {
     position: relative;
     z-index: 200 !important;
 }
+
+#description {
+    width: 50vw;
+}
+
+
 </style>

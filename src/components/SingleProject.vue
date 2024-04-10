@@ -80,20 +80,21 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(224, 0, 127, 0.1);
+  /* border: 1px solid rgba(224, 0, 127, 0.1); */
   border-radius: 20px;
 }
 
 .image-container {
   width: 35vw;
-  height: 757px;
+  /* height: 757px; */
+  height: auto;
   margin: 0 20px;
-
+/* 
   background: radial-gradient(
     166.84% 135.53% at 96.31% 83.88%,
     rgba(224, 0, 127, 0.25) 43%,
     rgba(255, 189, 0, 0.25) 100%
-  );
+  ); */
   /* 
   background: radial-gradient(
       127.23% 186.01% at 104.99% 47.29%,
@@ -120,13 +121,13 @@ export default {
 
 .title-container {
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
 
-  background: radial-gradient(
+  /* background: radial-gradient(
     100% 563.42% at 0% 41.74%,
     rgba(224, 0, 127, 0.25) 43%,
     rgba(255, 189, 0, 0.25) 100%
-  );
+  ); */
 
 }
 
@@ -145,42 +146,44 @@ export default {
 .description-container {
   flex-direction: column;
   align-items: flex-start;
-  padding: 25px;
+  /* padding: 25px; */
 
   width: 100%;
-  height: 550px;
+  /* height: 550px; */
 
-  background: radial-gradient(
+  /* background: radial-gradient(
     157.61% 114.18% at 106.35% 11.42%,
     rgba(224, 0, 127, 0.25) 43%,
     rgba(255, 189, 0, 0.25) 100%
-  );
+  ); */
 
 }
 
 #description {
   /* margin-top: 0;
   padding: 0; */
-  overflow: scroll;
+  /* overflow: scroll;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 189, 0, 0.25) transparent;
+  scrollbar-color: rgba(255, 189, 0, 0.25) transparent; */
 }
 
 .tech-stack-container {
   flex-direction: row;
   justify-content: space-evenly;
-  height: 5.5vw;
+  /* height: 5.5vw; */
+  height: 60px;
 
-  background: radial-gradient(
+  /* background: radial-gradient(
     95.26% 502.26% at 85.7% 135.63%,
     rgba(224, 0, 127, 0.25) 40.26%,
     rgba(255, 189, 0, 0.25) 100%
-  );
+  ); */
 }
 
 .tech-icon {
   /* width: 50px; */
-  height: 3.5vw;
+  /* height: 3.5vw; */
+  height: 40px;
   margin: 10px;
 }
 
@@ -193,6 +196,7 @@ export default {
       width: 90%;
     }
     .right-side {
+      width: 100%;
       gap: 10px;
     }
 }

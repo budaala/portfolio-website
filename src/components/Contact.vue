@@ -139,8 +139,10 @@ export default {
   padding: 34px 25px;
   gap: 10px;
 
-  width: 150px;
-  height: 143px;
+  /* width: 150px; */
+  width: 100px;
+  /* height: 143px; */
+  height: 95px;
   background: rgba(224, 0, 127, 0.1);
   border: 1px solid rgba(224, 0, 127, 0.4);
   box-shadow: 0px 0px 154.1px 10px rgba(224, 0, 127, 0.4);
@@ -148,7 +150,7 @@ export default {
 }
 
 .icon {
-  font-size: 200px;
+  font-size: 100px !important;
   color: #f5f5f5;
 }
 
@@ -198,6 +200,9 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
+  .s-m {
+    margin: 0;
+  }
   .row {
     flex-direction: column;
     align-items: center;
@@ -208,7 +213,7 @@ export default {
   }
 
   .contact {
-    width: 95%;
+    width: 100%;
   }
 
   .contact-inputs,

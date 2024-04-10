@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="d-flex" id="right-side">
+                <div class="d-flex mb-3" id="right-side">
                     <ul class="navbar-nav d-flex">
                         <li class="nav-item">
                             <a class="nav-link" href="#projects" :class="{ 'active': isActive === 'projects' }"
@@ -119,6 +119,14 @@ nav {
     color: #E0007F;
     /* border-bottom: 1px solid #E0007F; */
     font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+    #right-side {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
 }
 
 /* 
