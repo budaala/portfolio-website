@@ -113,6 +113,7 @@ header {
 @media (max-width: 768px) {
   .container-md {
     /* padding-left: 15% !important; */
+    overflow: hidden;
   }
 }
 
