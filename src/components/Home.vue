@@ -15,7 +15,7 @@
                                     <div class="photo"></div>
                                 </div>
                             </div>
-                            <div class="smoothing-shadow"></div>
+                            <!-- <div class="smoothing-shadow"></div> -->
                         </div>
                     </div>
                 </div>
